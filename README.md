@@ -5,7 +5,7 @@ In the root of this project, create a .env file with the following example varia
 ```
 DATABASE_ENGINE=postgresql_psycopg2
 DATABASE_NAME=remarcable_db
-DATABASE_USERNAME=root
+DATABASE_USERNAME=postgres
 DATABASE_PASSWORD=remarcable_password
 DATABASE_HOST=db
 DATABASE_PORT=5432
@@ -14,12 +14,18 @@ ALLOWED_HOSTS=localhost
 SECRET_KEY=secret
 ```
 
+## Ports
+This project uses port 8000 for the server and port 5432 for the database, make sure both of these are free.
+
 ## Docker
 Build the project with docker compose. In bash this can be run with the following command:
 
 ```
 docker compose up --build
 ```
+
+## Viewing the webpage
+Navigate to localhost:8000
 
 # Assumptions
 ## Initial data
