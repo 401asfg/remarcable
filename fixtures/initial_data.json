@@ -1,0 +1,374 @@
+[
+{
+  "model": "remarcable_app.category",
+  "pk": 1,
+  "fields": {
+    "name": "Tools"
+  }
+},
+{
+  "model": "remarcable_app.category",
+  "pk": 2,
+  "fields": {
+    "name": "Wires"
+  }
+},
+{
+  "model": "remarcable_app.category",
+  "pk": 3,
+  "fields": {
+    "name": "Machines"
+  }
+},
+{
+  "model": "remarcable_app.category",
+  "pk": 4,
+  "fields": {
+    "name": "Administration Tools"
+  }
+},
+{
+  "model": "remarcable_app.category",
+  "pk": 5,
+  "fields": {
+    "name": "Consumables"
+  }
+},
+{
+  "model": "remarcable_app.product",
+  "pk": 1,
+  "fields": {
+    "name": "Hammer",
+    "description": "Great for hammering in nails. Caution: every problem may start looking like a nail",
+    "category": 1,
+    "tags": [
+      9,
+      10,
+      13
+    ]
+  }
+},
+{
+  "model": "remarcable_app.product",
+  "pk": 2,
+  "fields": {
+    "name": "Screwdriver",
+    "description": "Required to properly use screws",
+    "category": 1,
+    "tags": [
+      12
+    ]
+  }
+},
+{
+  "model": "remarcable_app.product",
+  "pk": 3,
+  "fields": {
+    "name": "Wrench",
+    "description": "For tightening bolts",
+    "category": 1,
+    "tags": [
+      8,
+      9,
+      11
+    ]
+  }
+},
+{
+  "model": "remarcable_app.product",
+  "pk": 4,
+  "fields": {
+    "name": "Saw",
+    "description": "Improves vision and carpentry abilities",
+    "category": 1,
+    "tags": []
+  }
+},
+{
+  "model": "remarcable_app.product",
+  "pk": 5,
+  "fields": {
+    "name": "Uninsulated Copper Wire",
+    "description": "Must be handled with care",
+    "category": 2,
+    "tags": [
+      7,
+      8,
+      9,
+      10,
+      14
+    ]
+  }
+},
+{
+  "model": "remarcable_app.product",
+  "pk": 6,
+  "fields": {
+    "name": "Insulated Copper Wire",
+    "description": "Not rated for a high voltage",
+    "category": 2,
+    "tags": [
+      11,
+      13,
+      15
+    ]
+  }
+},
+{
+  "model": "remarcable_app.product",
+  "pk": 7,
+  "fields": {
+    "name": "Low Voltage Tin Wire",
+    "description": "20 feet of high quality wire, be careful of the voltage.",
+    "category": 2,
+    "tags": [
+      6
+    ]
+  }
+},
+{
+  "model": "remarcable_app.product",
+  "pk": 8,
+  "fields": {
+    "name": "Fiber Optic Cables",
+    "description": "Exceptional cables for data transmission.",
+    "category": 2,
+    "tags": [
+      9,
+      11,
+      15
+    ]
+  }
+},
+{
+  "model": "remarcable_app.product",
+  "pk": 9,
+  "fields": {
+    "name": "Sewing Machine",
+    "description": "Great for repairing a pair of pants",
+    "category": 3,
+    "tags": [
+      10
+    ]
+  }
+},
+{
+  "model": "remarcable_app.product",
+  "pk": 10,
+  "fields": {
+    "name": "Water Pump",
+    "description": "Can remove up to 50 tons of water",
+    "category": 3,
+    "tags": [
+      11
+    ]
+  }
+},
+{
+  "model": "remarcable_app.product",
+  "pk": 11,
+  "fields": {
+    "name": "AC Unit",
+    "description": "Great for keeping large spaces at a specific temperature",
+    "category": 3,
+    "tags": [
+      7,
+      8,
+      9,
+      10,
+      13,
+      14,
+      15
+    ]
+  }
+},
+{
+  "model": "remarcable_app.product",
+  "pk": 12,
+  "fields": {
+    "name": "Centrifuge",
+    "description": "Exerts centripetal force of up to 5000N",
+    "category": 3,
+    "tags": [
+      8,
+      9,
+      10,
+      6
+    ]
+  }
+},
+{
+  "model": "remarcable_app.product",
+  "pk": 13,
+  "fields": {
+    "name": "Workstation",
+    "description": "Standard work desk",
+    "category": 4,
+    "tags": [
+      9,
+      12
+    ]
+  }
+},
+{
+  "model": "remarcable_app.product",
+  "pk": 14,
+  "fields": {
+    "name": "Clipboard",
+    "description": "Great for noting down on site information",
+    "category": 4,
+    "tags": [
+      10
+    ]
+  }
+},
+{
+  "model": "remarcable_app.product",
+  "pk": 15,
+  "fields": {
+    "name": "Integrated Project Planning System",
+    "description": "A comprehensive electronic system for planning worksites",
+    "category": 4,
+    "tags": [
+      13,
+      6
+    ]
+  }
+},
+{
+  "model": "remarcable_app.product",
+  "pk": 16,
+  "fields": {
+    "name": "Pencil",
+    "description": "The foundation of all great administrative plans.",
+    "category": 4,
+    "tags": [
+      11,
+      13,
+      14
+    ]
+  }
+},
+{
+  "model": "remarcable_app.product",
+  "pk": 17,
+  "fields": {
+    "name": "Screws",
+    "description": "Pairs well with screwdrivers.",
+    "category": 5,
+    "tags": [
+      9
+    ]
+  }
+},
+{
+  "model": "remarcable_app.product",
+  "pk": 18,
+  "fields": {
+    "name": "Bolts",
+    "description": "Requires a wrench to be tightened",
+    "category": 5,
+    "tags": [
+      8,
+      10,
+      12
+    ]
+  }
+},
+{
+  "model": "remarcable_app.product",
+  "pk": 19,
+  "fields": {
+    "name": "Nails",
+    "description": "Does not require a hammer, but a hammer is recommended for effective use",
+    "category": 5,
+    "tags": [
+      10,
+      6
+    ]
+  }
+},
+{
+  "model": "remarcable_app.product",
+  "pk": 20,
+  "fields": {
+    "name": "Tape",
+    "description": "Strong adhesive qualities",
+    "category": 5,
+    "tags": [
+      12,
+      7
+    ]
+  }
+},
+{
+  "model": "remarcable_app.tag",
+  "pk": 6,
+  "fields": {
+    "name": "Unavailable"
+  }
+},
+{
+  "model": "remarcable_app.tag",
+  "pk": 7,
+  "fields": {
+    "name": "Available"
+  }
+},
+{
+  "model": "remarcable_app.tag",
+  "pk": 8,
+  "fields": {
+    "name": "Nearby Seller"
+  }
+},
+{
+  "model": "remarcable_app.tag",
+  "pk": 9,
+  "fields": {
+    "name": "Popular"
+  }
+},
+{
+  "model": "remarcable_app.tag",
+  "pk": 10,
+  "fields": {
+    "name": "Dangerous"
+  }
+},
+{
+  "model": "remarcable_app.tag",
+  "pk": 11,
+  "fields": {
+    "name": "Safe"
+  }
+},
+{
+  "model": "remarcable_app.tag",
+  "pk": 12,
+  "fields": {
+    "name": "Overseas Seller"
+  }
+},
+{
+  "model": "remarcable_app.tag",
+  "pk": 13,
+  "fields": {
+    "name": "On Sale"
+  }
+},
+{
+  "model": "remarcable_app.tag",
+  "pk": 14,
+  "fields": {
+    "name": "New"
+  }
+},
+{
+  "model": "remarcable_app.tag",
+  "pk": 15,
+  "fields": {
+    "name": "Backlogged"
+  }
+}
+]

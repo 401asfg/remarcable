@@ -1,0 +1,8 @@
+{% load render_table from django_tables2 %}
+
+{% block title %}Products{% endblock %}
+
+{% block content %}
+    {% include "filter.html" with filter=product_filter %}
+    {% render_table product_table %}
+{% endblock %}
